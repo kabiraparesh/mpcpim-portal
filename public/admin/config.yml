@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: kabiraparesh/mpcpim-portal
-  branch: origin
+  branch: main
 media_folder: public/images
 public_folder: /images
 publish_mode: editorial_workflow
