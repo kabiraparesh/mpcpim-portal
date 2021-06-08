@@ -88,6 +88,20 @@ collections:
                 name: "name"
                 widget: "string"
                 hint: "Tag name for displaying on the site"
+      - name: "seo"
+        label: "Seo"
+        file: "meta/seo.yml"
+        description: "SEO"
+        fields:
+          - name: seo
+            label: Seo
+            label_singular: "Seo"
+            widget: list
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+                hint: "The part of a URL identifies the tag"
 
   - name: "posts"
     label: "Posts"
