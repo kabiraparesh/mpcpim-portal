@@ -49,7 +49,7 @@ collections:
     editor:
       preview: false
     files:
-      - name: "authors1"
+      - name: "authors"
         label: "Authors"
         file: "meta/authors.yml"
         description: "Author descriptions"
